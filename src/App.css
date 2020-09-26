@@ -1,6 +1,9 @@
 .container{
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
-  background: #000000;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: #143550;
+    border-radius: 40px;
+    margin-bottom: 100px;
+    margin-top: 60px;
 }

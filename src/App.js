@@ -1,15 +1,19 @@
-import React,{Fragment} from 'react';
-import { 
+import React, { Fragment } from 'react';
+import  './App.css';
+import {
   Header,
-  
+
 } from './Components/initializeComponent';
 
-function App() {
+const App = () => {
   return (
     <Fragment>
-      <Header/>
+      <Header />
+      <div className="container">
+        
+      </div>
     </Fragment>
-    );
+  );
 }
 
 export default App;
