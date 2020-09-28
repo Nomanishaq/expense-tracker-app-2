@@ -1,9 +1,11 @@
 .container{
     max-width: 500px;
-    height: 500px;
+    /* margin: 15px; */
+    height: auto;
     margin: 0 auto;
     background: #143550;
     border-radius: 40px;
     margin-bottom: 100px;
-    margin-top: 60px;
+    margin-top: 20px;
+    padding-bottom: 50px;
 }

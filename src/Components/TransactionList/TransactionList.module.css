@@ -1,0 +1,26 @@
+.transactionListContainer{
+    color: white;
+    margin: 30px;
+    margin-top: 30px;
+}
+.title{
+    margin-left: 30px;    
+}
+.list{
+    width: 80%;
+    margin: 10px;
+    height: 40px;
+    color: #000000;
+    list-style: none;
+    background: #ffffff !important;
+}
+.minus{
+    border-right: 10px solid red;
+}
+.plus{
+    border-right: 10px solid green;
+}
+.list h4{
+    padding-top: 10px;
+    padding-left: 10px;
+}

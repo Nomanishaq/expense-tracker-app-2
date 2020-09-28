@@ -1,0 +1,33 @@
+.incomeExpenseContainer{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    background: #061d30 !important;
+    border-radius: 10px;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.income{
+    margin-left: 30px;
+}
+.income h2{
+    color: greenyellow;
+    font-weight: 100;
+    margin-left: 5px;
+    line-height: 15px;
+}
+.expense{
+    margin-right: 30px;
+}
+.expense h2{
+    font-weight: 100;
+    color: red;
+    margin-left: 15px;
+    line-height: 15px;
+}
+h1{
+    font-weight: 100;
+    font-size: 20px;
+}
