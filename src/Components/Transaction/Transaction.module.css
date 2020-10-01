@@ -1,0 +1,23 @@
+.list{
+    width: 80%;
+    margin: 10px;
+    height: 40px;
+    color: #000000;
+    list-style: none;
+    background: #ffffff !important;
+}
+.minus{
+    border-right: 10px solid red;
+}
+.plus{
+    border-right: 10px solid green;
+}
+.list h4{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.amount{
+    float: right;
+    margin-right: 10px;
+    font-weight: 300 !important;
+}

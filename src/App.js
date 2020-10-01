@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment }  from 'react';
 import './App.css';
 import {
   Header,
@@ -7,20 +7,22 @@ import {
   TransactionList,
   AddTransaction,
   Footer
-
 } from './Components/initializeComponent';
+import { GlobalProvider } from './Context/GlobalContext';
 
 const App = () => {
   return (
     <Fragment>
       <Header />
       <div className="container">
+    <GlobalProvider>
         <Balnace />
         <IncomeExpense />
         <TransactionList />
         <AddTransaction />
+    </GlobalProvider>
       </div>
-      <Footer/>
+      <Footer />
     </Fragment>
   );
 }
