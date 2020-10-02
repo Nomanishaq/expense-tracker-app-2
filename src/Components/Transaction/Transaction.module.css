@@ -31,10 +31,10 @@
 
 .close {
     background: #000000;
-    width: 30px;
+    width: 40px;
     height: 20px;
     float: right;
-    margin-right: -30px;
+    margin-right: -50px;
     text-align: center;
     display: none;
     color: #ffffff;
