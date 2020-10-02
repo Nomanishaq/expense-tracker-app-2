@@ -1,21 +1,25 @@
-.container{
+.container {
     color: #ffffff;
     margin-left: 30px;
     margin-top: 20px;
 }
-.title{
+
+.title {
     line-height: 60px;
     font-weight: 500;
 }
-.formContainer{
+
+.formContainer {
     padding: 10px;
 }
-.text{
+
+.text {
     width: 90%;
     height: 40px;
     border-radius: 6px;
 }
-.submit{
+
+.submit {
     width: 30%;
     height: 50px;
     background: #061929;

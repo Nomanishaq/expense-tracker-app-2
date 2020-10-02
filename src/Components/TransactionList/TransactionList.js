@@ -4,7 +4,7 @@ import { GlobalContext } from '../../Context/GlobalContext';
 import Transaction from '../Transaction/Transaction';
 
 const TransactionList = () => {
-    const {transactions} = useContext(GlobalContext);
+    const { transactions } = useContext(GlobalContext);
     return (
         <div className={transactionListStyle.transactionListContainer}>
             <h1 className={transactionListStyle.title}>Previous History</h1>
